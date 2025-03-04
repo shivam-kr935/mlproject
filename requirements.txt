@@ -1,8 +1,8 @@
-#numpy
-#pandas 
-#seaborn
+numpy
+pandas 
+seaborn
 #-e .
 scikit-learn
 catboost
 xgboost
-#ipykernel
+ipykernel
