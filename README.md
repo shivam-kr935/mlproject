@@ -6,23 +6,8 @@ An end-to-end machine learning project that demonstrates the complete lifecycle 
 The repository is organized as follows:​
 
 
-mlproject/
-├── .ebextension/           # Configuration files for AWS Elastic Beanstalk deployment
-├── artifacts/              # Directory to store artifacts like trained models
-├── catboost_info/          # Logs and information from CatBoost training
-├── notebook/               # Jupyter notebooks for exploratory data analysis
-├── src/                    # Source code for the project
-│   ├── __init__.py
-│   ├── components/         # Modules for different components like data ingestion, model training
-│   ├── pipeline/           # Scripts to run the entire pipeline
-│   ├── utils/              # Utility functions
-│   └── ...                 # Other necessary modules
-├── templates/              # HTML templates for the web application
-├── application.py          # Flask application entry point
-├── requirements.txt        # Python dependencies
-├── setup.py                # Setup script for packaging
-├── .gitignore              # Git ignore file
-└── README.md               # Project documentation
+
+<pre> mlproject/ ├── .ebextension/ # Configuration files for AWS Elastic Beanstalk deployment ├── artifacts/ # Directory to store artifacts like trained models ├── catboost_info/ # Logs and information from CatBoost training ├── notebook/ # Jupyter notebooks for exploratory data analysis ├── src/ # Source code for the project │ ├── __init__.py │ ├── components/ # Modules for data ingestion, model training │ ├── pipeline/ # Scripts to run training/inference pipelines │ ├── utils/ # Helper functions and utilities │ └── ... # Other logic ├── templates/ # HTML templates for the Flask web app ├── application.py # Flask application entry point ├── requirements.txt # Python dependencies ├── setup.py # Setup script for packaging ├── .gitignore # Files/directories to ignore in Git └── README.md # Project documentation </pre>
 
 
 🚀 Getting Started
