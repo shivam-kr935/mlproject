@@ -5,9 +5,7 @@ An end-to-end machine learning project that demonstrates the complete lifecycle 
 📁 Project Structure
 The repository is organized as follows:​
 
-bash
-Copy
-Edit
+
 mlproject/
 ├── .ebextension/           # Configuration files for AWS Elastic Beanstalk deployment
 ├── artifacts/              # Directory to store artifacts like trained models
@@ -25,6 +23,8 @@ mlproject/
 ├── setup.py                # Setup script for packaging
 ├── .gitignore              # Git ignore file
 └── README.md               # Project documentation
+
+
 🚀 Getting Started
 Prerequisites
 Ensure you have the following installed:​
